@@ -42,7 +42,6 @@ public:
          temp -> next = Ok;
          Ok -> prev = temp;
       }
-     
       return head;
       
     }
