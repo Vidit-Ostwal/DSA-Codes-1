@@ -1,12 +1,4 @@
 class Solution {
-  void show_vector(vector<int> vect)
-  {
-  for (auto &it: vect)
-  {
-   cout << it << " ";
-  }
-  cout << endl;
- }
   
   vector<int> KMP(string s)
   {
@@ -36,7 +28,6 @@ class Solution {
         }
       }
     }
-    // show_vector(KMPvector);
     return KMPvector;
   }
   
