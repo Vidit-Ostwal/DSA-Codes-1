@@ -42,7 +42,6 @@ class Solution {
   
   int Helper(string s)
   {
-    cout << s << endl;
     if (s.length() == 0)
       return 0;
     
