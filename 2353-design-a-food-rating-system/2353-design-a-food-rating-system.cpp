@@ -1,7 +1,7 @@
 class FoodRatings {
-  unordered_map<string,map<int,map<string,int>,greater<int>>> map1;
-  unordered_map<string,string> map2;
-  unordered_map<string,int> map3;
+  map<string,map<int,map<string,int>,greater<int>>> map1;
+  map<string,string> map2;
+  map<string,int> map3;
 public:
     FoodRatings(vector<string>& foods, vector<string>& cuisines, vector<int>& ratings) {
       
