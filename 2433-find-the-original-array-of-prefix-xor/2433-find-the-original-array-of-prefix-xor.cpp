@@ -1,17 +1,13 @@
 class Solution {
 public:
-    vector<int> findArray(vector<int>& pref) {
-      vector<int>A(pref.size());
-      A[0] = pref[0];
+    vector<int> findArray(vector<int>& A) {
       int temp = A[0];
-      for (int i = 1; i < pref.size(); i++)
+      for (int i = 1; i < A.size(); i++)
       {
-        int k = temp ^ pref[i];
+        int k = temp ^ A[i];
         A[i] = k;
         temp = temp ^ k;
       }
-      
-      
       return A;
     }
 };
