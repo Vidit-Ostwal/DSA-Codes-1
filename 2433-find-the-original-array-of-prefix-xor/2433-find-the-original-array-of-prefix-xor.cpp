@@ -1,9 +1,6 @@
 class Solution {
 public:
     vector<int> findArray(vector<int>& pref) {
-        if (pref.size() == 1)
-          return pref;
-      
       vector<int>A(pref.size());
       A[0] = pref[0];
       int temp = A[0];
